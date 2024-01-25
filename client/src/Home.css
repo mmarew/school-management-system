@@ -1,0 +1,20 @@
+.homePaper {
+  height: 150px;
+  padding: 15px;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition: color 0.3s, transform 0.3s !important ; /* for WebKit browsers */
+  transition: color 0.3s, transform 0.3s !important ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.homePaper:hover {
+  /* padding: 20px; */
+  color: rgb(11, 11, 246) !important ;
+  cursor: pointer !important ;
+  transform: scale(1.1) !important ;
+}
